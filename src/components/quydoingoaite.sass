@@ -1,0 +1,102 @@
+
+.quydoingoaite
+	.box
+		width: 100%
+		max-width: 980px
+		margin: 0 auto
+		padding: 35px
+		background: #f3f3f3
+		.form-group
+			margin-bottom: 14px
+		label
+			width: 100%
+			font-size: 14px
+			margin-bottom: 7px
+		select, input[type="text"]
+			min-width: 1px
+			height: 35px
+			background: white
+			display: inline-block
+			width: 100%
+			border: 1px solid #e1e1e1
+			padding: 0 15px
+			&:focus
+				outline: none
+		select
+			background: #e9e9ed
+		input[type="text"]
+			&[disabled]
+				background: #e9e9ed
+	.exchange-type
+		select
+			max-width: 300px
+			@media (max-width: 991.98px)
+				max-width: 100%
+	.col-left
+		.form-group
+			max-width: 400px
+			@media (max-width: 991.98px)
+				max-width: 100%
+	.col-left,.col-right
+		.form-group
+			display: flex
+			flex-wrap: wrap
+		input[type="text"]
+			flex-basis: 0
+			flex-grow: 1
+			max-width: 100%
+			background: white
+		select
+			max-width: 80px
+			margin-left: 10px
+			padding: 0 10px
+		p
+			flex: 0 0 100%
+			max-width: 100%
+			font-size: 13px
+			color: #999999
+			margin-top: 20px
+			@media (max-width: 991.98px)
+				br
+					display: none
+		span.mdi
+			display: block
+			font-size: 24px
+			width: 60px
+			text-align: center
+			height: 35px
+			@media (max-width: 991.98px)
+				flex: 0 0 100%
+				max-width: 100%
+			
+	.col-right
+		.form-group
+			width: 100%
+			max-width: 100%
+		input
+			flex-basis: 0
+			flex-grow: 1
+			max-width: 100%
+	.form-btn
+		width: 100%
+		display: flex
+		justify-content: center
+		@media (min-width: 992px)
+			padding-top: 28px
+			padding-left: 20px
+	.btn-exchange
+		width: 140px
+		height: 35px
+		margin: 0 auto
+		padding: 0
+		display: flex
+		justify-content: center
+		align-items: center
+		font-weight: 600
+		border: 0
+		background-image: linear-gradient(180deg, rgb(0,86,144) 0%, rgb(7,114,186) 100%)
+		color: white
+		border-radius: 5px
+		&:hover
+			color: #333333
+			background: linear-gradient(180deg,#fff34f 0,#fd0)

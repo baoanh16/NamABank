@@ -1,0 +1,93 @@
+extends _layout.pug
+
+
+block main
+	.tienguitietkiem
+		.container
+			.row
+				.col-lg-10.col-xl-9
+					.box
+						p Cho phép bạn tính toán số tiền tiết kiệm khi gửi một số tiền theo phương thức tùy chọn, lãi suất và thời gian nhất định.
+						.form-group
+							label Phương thức trả lãi
+							select
+								option Lãi hàng tháng
+								option Lãi hàng tháng
+								option Lãi hàng tháng
+						.form-group
+							label Ngày mở sổ
+							input(type="text", name="")
+						.form-group
+							label Kỳ hạn (tháng)
+							input#month(type="text", name="" min="12" max="80" step="1")
+						.row
+							.col-md-8
+								.form-group
+									label Số tiền gửi/Số tiền đăng ký nộp hàng tháng
+									input#money(type="text", name="" min="5000000" max="100000000" step="1000000")
+							.col-md-4
+								.form-group
+									label Loại tiền
+									select
+										option VND
+										option USD
+										option JPY
+							.col-12
+								.form-group
+									.money-slider
+						.row
+							.col-md-8
+								.form-group
+									label Ngày mở sổ
+									input(type="text", name="")
+							.col-md-4
+								.form-group
+									a(href="#") Tham khảo lãi suất
+						.form-button
+							input.btn-calculate(type="button", value="Tính toán")
+							input.btn-export(type="button", value="Xuất ra Excel")
+	.tienguitietkiem-table
+		.container
+			.main-title
+				h2 Bảng thông tin chi tiết
+			.table-responsive
+				table
+					thead
+						tr
+							th Ngày gửi/ ngày lãnh lãi
+							th Ngày đáo hạn
+							th số tiền tiết kiệm
+							th Lãi nhận hàng tháng
+							th Vốn + Lãi nhận khi đáo hạn
+					tbody
+						tr
+							td 12/06/2019
+							td
+							td 5.000.000
+							td 31.333,00
+							td
+						tr
+							td 12/06/2019
+							td
+							td 5.000.000
+							td 31.333,00
+							td
+						tr
+							td 12/06/2019
+							td
+							td 5.000.000
+							td 31.333,00
+							td
+						tr
+							td 12/06/2019
+							td
+							td 5.000.000
+							td 31.333,00
+							td
+						tr
+							td 12/06/2019
+							td
+							td 5.000.000
+							td 31.333,00
+							td
+			p (Giả định ngày đáo hạn rơi vào ngày làm việc của Nam A Bank)

@@ -1,0 +1,23 @@
+{
+	"font": [
+		"bower_components/mdi/fonts/**",
+		"bower_components/font-awesome/webfonts/**",
+		"bower_components/linearicons/dist/web-font/fonts/**",
+		"src/fonts/**"
+	],
+	"js": [
+		"bower_components/jquery/dist/jquery.min.js",
+		"bower_components/swiper/dist/js/swiper.js",
+		"bower_components/lazysizes/lazysizes.min.js",
+		"src/_plugins/ls.unveilhooks.min.js",
+		"src/_plugins/data-bg.js",
+		"src/_plugins/mapping.js",
+		"src/_plugins/mapping-listener.js"
+	],
+	"css": [
+		"src/_plugins/font.css",
+		"src/_plugins/grid.css",
+		"bower_components/swiper/dist/css/swiper.min.css"
+	]
+}
+

@@ -1,0 +1,158 @@
+.nama-footer .top-wrapper {
+    padding: 35px 0 calc(35px - 1rem);
+    background: #0772ba
+}
+
+.nama-footer .top-wrapper .item {
+    margin-bottom: 1rem
+}
+
+.nama-footer .top-wrapper .item .title {
+    margin-bottom: 15px;
+    color: #fd0
+}
+
+.nama-footer .top-wrapper .item .title h3 {
+    font-size: 18px;
+    font-weight: 500
+}
+
+.nama-footer .top-wrapper .item ul {
+    padding-left: 0;
+    list-style: none
+}
+
+.nama-footer .top-wrapper .item ul li {
+    padding: 5px 0
+}
+
+.nama-footer .top-wrapper .item ul li a {
+    color: #fff;
+    text-decoration: none
+}
+
+.nama-footer .top-wrapper .item ul li a:before {
+    display: inline-block;
+    font: normal normal normal 24px/1 Material Design Icons;
+    font-size: 18px;
+    content: "\f142"
+}
+
+.nama-footer .bottom-wrapper {
+    background: #fd0
+}
+
+.nama-footer .bottom-wrapper .main-wrapper {
+    padding: 35px 0 50px;
+    border-bottom: 1px solid #eacc05
+}
+
+.nama-footer .bottom-wrapper .main-wrapper .logo {
+    padding-top: 10px
+}
+
+.nama-footer .bottom-wrapper .main-wrapper .footer-quote {
+    padding: 1rem 0
+}
+
+.nama-footer .bottom-wrapper .main-wrapper .footer-quote h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500
+}
+
+.nama-footer .bottom-wrapper .main-wrapper .footer-quote p {
+    font-size: 12px;
+    font-weight: 500
+}
+
+.nama-footer .bottom-wrapper .main-wrapper .title {
+    margin-bottom: 10px
+}
+
+.nama-footer .bottom-wrapper .main-wrapper .title h2 {
+    font-size: 18px;
+    font-weight: 500
+}
+
+.nama-footer .bottom-wrapper .main-wrapper .footer-social ul {
+    -ms-flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none
+}
+
+.nama-footer .bottom-wrapper .main-wrapper .footer-social ul li+li {
+    margin-bottom: 10px;
+    margin-left: 10px
+}
+
+.nama-footer .bottom-wrapper .main-wrapper .footer-social ul li a {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #0772ba;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 40px;
+    text-align: center;
+    transition: all .3s ease-in-out
+}
+
+.nama-footer .bottom-wrapper .main-wrapper .footer-social ul li a:hover {
+    background: #fff;
+    color: #0772ba
+}
+
+.nama-footer .bottom-wrapper .copyright {
+    padding: 15px 0;
+    font-size: 12px
+}
+
+.nama-footer .bottom-wrapper .copyright .list-page ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none
+}
+
+.nama-footer .bottom-wrapper .copyright .list-page ul li {
+    position: relative
+}
+
+.nama-footer .bottom-wrapper .copyright .list-page ul li a {
+    padding: 0 5px
+}
+
+.nama-footer .bottom-wrapper .copyright .list-page ul li:first-child:before {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    width: 1px;
+    height: .875rem;
+    background: #333;
+    content: ""
+}
+
+.nama-footer .bottom-wrapper .copyright .list-page ul li:first-child a {
+    padding-left: 0
+}
+
+@media (min-width:992px) {
+    .nama-footer .bottom-wrapper .main-wrapper .footer-quote {
+        padding: 0
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .nama-footer .bottom-wrapper .copyright .list-page ul li a {
+        font-size: 10px;
+    }
+}

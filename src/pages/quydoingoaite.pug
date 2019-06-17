@@ -1,0 +1,53 @@
+extends _layout.pug
+
+block main
+	.quydoingoaite
+		.container
+			.main-title 
+				h2 Quy đổi ngoại tệ
+			.box
+				.form-group.exchange-type
+					label Loại chuyển đổi 
+					select
+						option Tiền mặt
+						option Thẻ tín dụng
+				.row.no-gutters
+					.col-left.col-lg-auto
+						.form-group
+							label Nếu tôi có
+							input(type="text", name="")
+							select
+								option VND
+								option USB
+								option JPY
+							span.mdi.mdi-repeat
+							p Lưu ý tỷ giá được cặp nhật vào lúc 15:46:00 <br/> Ngày 11/06/2019 theo bảng tỷ giá hiện hành
+					.col-right.col-lg
+						label Tôi sẽ được
+						.form-group
+							input(type="text", name="" disabled)
+							select
+								option VND
+								option USB
+								option JPY
+						.form-group
+							input(type="text", name="" disabled)
+							select
+								option VND
+								option USB
+								option JPY
+						.form-group
+							input(type="text", name="" disabled)
+							select
+								option VND
+								option USB
+								option JPY
+						.form-group
+							input(type="text", name="" disabled)
+							select
+								option VND
+								option USB
+								option JPY
+					.col-button.col-lg-auto
+						.form-btn
+							input.btn-exchange(type="button" value="Chuyển đổi")
