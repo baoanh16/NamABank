@@ -5076,7 +5076,6 @@ button.swiper-pagination-bullet {
 	color: #0772ba;
 	font-size: 18px;
 	margin-top: 15px;
-	margin-left: 15px;
 }
 
 .nama-dichvu-ct-1 .col-lg-6:first-child .image {
@@ -5134,7 +5133,11 @@ button.swiper-pagination-bullet {
 
 .nama-dichvu-ct-2 .table ul {
 	padding-left: 0;
-	list-style: none
+	list-style: none;
+	margin-bottom: 16px;
+}
+.nama-dichvu-ct-2 .table p {
+	margin-bottom: 7px;
 }
 
 .nama-dichvu-ct-2 .table ul li {

@@ -9,8 +9,6 @@ import autoprefixer from "autoprefixer";
 
 export const sassTask = () => {
 	return src([
-		"src/components/_core/**.sass",
-		"src/components/_global/**.sass",
 		"src/components/**/**.sass",
 	])
 		.pipe(sourcemap.init())

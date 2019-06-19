@@ -6,7 +6,7 @@
         <xsl:apply-templates select='/ZoneList/Zone' mode="Zone1"></xsl:apply-templates>
     </xsl:template>
 
-    <xsl:template match='Zone' mode="Zone1">
+    <!-- <xsl:template match='Zone' mode="Zone1">
         <xsl:if test="IsActive='true'">
             <xsl:apply-templates select='Zone' mode="Zone2"></xsl:apply-templates>
         </xsl:if>
@@ -16,9 +16,9 @@
         <xsl:if test="IsActive='true'">
             <xsl:apply-templates select='Zone' mode="Zone3"></xsl:apply-templates>
         </xsl:if>
-    </xsl:template>
+    </xsl:template> -->
 
-    <xsl:template match='Zone' mode="Zone3">
+    <xsl:template match='Zone' mode="Zone1">
         <xsl:if test="position() = 2">
             <div class="main-title">
                 <h2>

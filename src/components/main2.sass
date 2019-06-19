@@ -56,37 +56,31 @@ main
 		max-width: none
 
 
-.product-detail-page, 
-	@media (min-width: 992px)
-		.nama-breadcrumb
-			margin-bottom: 45px
-		.nama-navigation-1
-			margin-top: -45px
-			&.scroll-fixed
-				top: 110px
-				width: 100%
-				left: 0
-				z-index: 10
-				position: fixed
-				margin-top: 0
-.Module-188
-	padding-top: 45px
-	.nama-the-sanpham-ct-6
+#ctl00_mainContent_ctl01_ctl00_pnlInnerWrap, 
+#ctl00_mainContent_ctl00_ctl00_pnlInnerWrap
+	.nama-dn-sanpham-ct-8
 		display: none
-.news-detail-page
 	@media (min-width: 992px)
-		.Module-188
+		padding-top: 40px
+		@media (min-width: 1200px)
 			padding-top: 45px
 		.nama-navigation-1
-			margin-top: -45px
+			margin-top: -40px
+			@media (min-width: 1200px)
+				margin-top: -45px
 			&.scroll-fixed
 				top: 110px
 				width: 100%
 				left: 0
-				z-index: 10
+				z-index: 20
 				position: fixed
 				margin-top: 0
-
+		.nama-breadcrumb
+			margin-top: -40px
+			margin-bottom: 40px
+			@media (min-width: 1200px)
+				margin-top: -45px
+				margin-bottom: 45px
 
 .nama-dichvu-ct-2 .table table tbody tr td:first-child
 	font-weight: 600
@@ -116,26 +110,40 @@ main
 	text-decoration: underline
 	color: #0772ba
 
-.nama-the-2 .item .btn_compare
-	position: relative
-	padding-left: 20px
-	&:before
-		content: ''
-		width: 12px
-		height: 12px
-		border-radius: 2px
-		border: 1px solid #333333
-		position: absolute
-		left: 0
-		top: 2px
-		display: flex
-		justify-content: center
-		align-items: center
-	&.active
-		&:before
-			border: 1px solid #0772ba
-			content: '\f12c'
-			font-family: "Material Design Icons"
+.nama-the-2
+	.item
+		figure
+			@media (min-width: 992px)
+				display: flex
+				flex-direction: column
+			figcaption
+				display: flex
+				flex-direction: column
+				flex: 100%
+		.btn_compare
+			margin-top: auto
+			align-self: center
+			margin-bottom: 45px
+			position: relative
+			padding-left: 20px
+			height: auto
+			&:before
+				content: ''
+				width: 12px
+				height: 12px
+				border-radius: 2px
+				border: 1px solid #333333
+				position: absolute
+				left: 0
+				top: 2px
+				display: flex
+				justify-content: center
+				align-items: center
+			&.active
+				&:before
+					border: 1px solid #0772ba
+					content: '\f12c'
+					font-family: "Material Design Icons"
 
 
 .nama-the-dichvu-1 
@@ -195,3 +203,40 @@ main
 				height: 100%
 			#map_canvas
 				height: 100%
+
+.nama-the-4
+	.list-item
+		.item
+			a
+				figure
+					.image
+						overflow: hidden
+						img
+							transition: all .4s cubic-bezier(.2,.5,.5,.8)
+			&:hover
+				a
+					figure
+						.image
+							img
+								transform: scale(1.1)
+						figcaption
+							h5
+								text-decoration: underline
+
+
+.Module-186,.Module-191, .Module-213, .Module-226
+	.nama-breadcrumb
+		.nama-banner
+			height: 430px
+			overflow: hidden
+			display: flex
+			justify-content: center
+			align-items: center
+			img
+				width: 100%
+				height: 100%
+				object-fit: cover
+			@media (max-width: 1199.98px)
+				height: 250px
+			@media (max-width: 575.98px)
+				height: 85px
